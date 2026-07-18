@@ -1,4 +1,4 @@
-Papi# CloudOps Monitoring & Incident Response on AWS
+# CloudOps Monitoring & Incident Response on AWS
 
 ## Project Overview
 
