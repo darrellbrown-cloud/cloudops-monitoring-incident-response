@@ -95,4 +95,4 @@ Included screenshots:
 
 Completed core AWS build.
 
-SNS email subscriptions were created, but confirmation emails were delayed or not received during testing. The issue was documented as part of the troubleshooting process. Paste
+SNS email subscriptions were created, but confirmation emails were delayed or not received during testing. The issue was documented as part of the troubleshooting process. 
