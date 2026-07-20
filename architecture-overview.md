@@ -1,60 +1,50 @@
-\# Architecture Overview
+# Architecture Overview
 
 
 
-\## Project
+## Project
 
 
 
-CloudOps Monitoring \& Incident Response on AWS
+CloudOps Monitoring & Incident Response on AWS
 
 
-
-\## Purpose
-
+ 
+## Purpose
 
 
 This project demonstrates a basic CloudOps monitoring and incident response workflow for an EC2 instance. The goal is to show how AWS services can be used to monitor infrastructure, detect high CPU utilization, send alerts, and support a documented response process.
 
 
 
-\## Architecture Flow
+## Architecture Flow
 
 
 
 ```text
-
 EC2 Instance
-
-&#x20;  ↓
-
+   |
+   v
 CloudWatch Metrics
-
-&#x20;  ↓
-
+   |
+   v
 CloudWatch Alarm
-
-&#x20;  ↓
-
+   |
+   v
 SNS Topic
-
-&#x20;  ↓
-
+   |
+   v
 Email Subscription
-
-&#x20;  ↓
-
+   |
+   v
 Support Engineer Investigation
-
-&#x20;  ↓
-
+   |
+   v
 Incident Response Runbook
-
-&#x20;  ↓
-
+   |
+   v
 Sample Incident Report
-
-&#x20;  ↓
-
+   |
+   v
 S3 and GitHub Documentation
-
+```
